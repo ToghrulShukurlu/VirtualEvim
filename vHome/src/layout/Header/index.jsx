@@ -22,6 +22,9 @@ const Header = () => {
                 <li>
                   <NavLink to="/rent">KİRAYƏ</NavLink>
                 </li>
+                <li>
+                  <NavLink to="/about">HAQQIMIZDA</NavLink>
+                </li>
               </ul>
             </div>
             <div className="col-lg-3 d-flex justify-content-center align-items-center">

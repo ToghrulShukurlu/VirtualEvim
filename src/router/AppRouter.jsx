@@ -5,6 +5,7 @@ import Home360 from "../pages/Home360";
 import Detail from "../pages/Detail";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
+import About from "../pages/About";
 const AppRouter = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const AppRouter = () => {
           <Route path="/home/:id" element={<Detail />} />
           <Route path="/360" element={<Home360 />} />
           <Route path="/rent" element={<Rent />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </BrowserRouter>
